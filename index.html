@@ -10,8 +10,8 @@
   <body>
     <!-- header and navbar -->
     <header class="header">
-      <h1>Hori<mark class="seo">seo</mark>n</h1>
-      <nav>
+      <h1>Hori<span class="seo">seo</span>n</h1>
+      <nav class="navbar">
         <ul>
           <li>
             <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -29,7 +29,7 @@
     <!-- add main, section and article tag. 
         change class name and id for each article -->
     <!-- add alt attribute if a user for some reason cannot view an image -->
-    <main class="hero"></main>
+    <main class="hero">
         <section class="content">
             <!-- 1 -->
             <article class="services">
@@ -79,37 +79,39 @@
                 </p>
             </article>
         </section>
+    </main>
 
     <!-- add aside section and alt attribute -->
-        <aside class="benefits">
-            <article class="benefits">
-                <h3>Lead Generation</h3>
-                <img src="./assets/images/lead-generation.png"
-                alt="">
-                <p>
-                    Inbound strategies for lead generation require less work for your
-                    business, bringing customers directly to your website.
-                </p>
-            </article>
-            <article class="benefits">
-                <h3>Brand Awareness</h3>
-                <img src="./assets/images/brand-awareness.png"
-                alt="">
-                <p>
-                    Users find your business through paid and organic searches, increasing
-                    the search ranking and visibility for your business.
-                </p>
-            </article>
-            <article class="benefits">
-                <h3>Cost Management</h3>
-                <img src="./assets/images/cost-management.png"
-                alt="">
-                <p>
-                    As the search ranking for your business increases, your advertising
-                    costs decrease, and you no longer need to advertise your page.
-                </p>
-            </article>
-        </aside>
+    <aside class="benefits">
+        <article class="benefits-card">
+            <h3>Lead Generation</h3>
+            <img src="./assets/images/lead-generation.png"
+            alt="">
+            <p>
+                Inbound strategies for lead generation require less work for your
+                business, bringing customers directly to your website.
+            </p>
+        </article>
+        <article class="benefits-card">
+            <h3>Brand Awareness</h3>
+            <img src="./assets/images/brand-awareness.png"
+            alt="">
+            <p>
+                Users find your business through paid and organic searches, increasing
+                the search ranking and visibility for your business.
+            </p>
+        </article>
+        <article class="benefits-card">
+            <h3>Cost Management</h3>
+            <img src="./assets/images/cost-management.png"
+            alt="">
+            <p>
+                As the search ranking for your business increases, your advertising
+                costs decrease, and you no longer need to advertise your page.
+            </p>
+        </article>
+    </aside>
+
     <!-- footer -->  
     <footer class="footer">
         <h4>Made with ❤️️ by Horiseon</h4>
