@@ -18,3 +18,5 @@
 ![Bottom of the page](./assets/images/2022-04-08-2.jpg)
 
 ## https://github.com/katarzynajk/marketing-agency-refactor.git
+
+## https://katarzynajk.github.io/marketing-agency-refactor/
